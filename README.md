@@ -1,71 +1,89 @@
-# 👋 ¡Hola! Soy José David Frías
+# 👋 Hola, soy José David Frías
 
-### 🚀 De Desarrollador Full Stack a Ingeniero de Datos en Proceso
+## 🚀 Data Engineer en formación | Ex Full Stack Developer
 
-En mis inicios construía interfaces y aplicaciones web como Full Stack Developer. En este momento de mi vida, me he adentrado profundo en el interesante mundo del Data Engineering. Me entusiasma automatizar el manejo de grandes volúmenes de datos y construir pipelines sólidos que aporten valor real a los procesos de negocio.
+Soy un **Ingeniero de Datos en formación**. Mi transición desde el desarrollo Full Stack me permite abordar los datos con una mirada integral: código limpio, arquitectura clara y foco en el negocio.
 
----
-
-## 🧠 ¿Qué estoy aprendiendo y usando?
-
-🔧 **Lenguajes y Herramientas:**
-- Python (avanzado)
-- SQL / MSSQL
-- PySpark / Apache Spark
-- Delta Lake / Data Lakes
-- APIs REST
-- Pandas / PyArrow
-- Git & GitHub
-- Visual Studio Code / Jupyter Notebooks / PyCharm
-
-📦 **Procesos y Arquitecturas:**
-- Construcción de pipelines ELT
-- Extracción incremental y completa desde APIs
-- Particionado y versionado de datos
-- Automatización de cargas
-- Documentación clara y mantenible
-
-🧠 **Soft Skills destacadas:**
-- Resolución de problemas complejos
-- Aprendizaje autónomo acelerado
-- Colaboración efectiva en equipos técnicos
+Actualmente diseño y construyo **pipelines ELT**, **Data Warehouses analíticos** y **Data Lakes** aplicando buenas prácticas de ingeniería, versionado y documentación.
 
 ---
 
-## 📚 Formación Relevante
+## 🧠 Stack Técnico
 
-🎓 **Curso de Data Engineering – UTN FRBA (2024)**  
-✅ Proyecto final aprobado con 90/100  
-🔗 Adquirí experiencia práctica con Spark, Delta Lake, y diseño de pipelines reales.
+**Lenguajes & Frameworks**
 
-🎓 **Técnico en Programación – I.P.E.T. Nº 57 (2023)**  
-📌 Base sólida en algoritmos, estructuras de datos y desarrollo de software.
+* Python (avanzado)
+* SQL / PostgreSQL / MSSQL
+* PySpark / Apache Spark
+* dbt Core
+
+**Data Engineering**
+
+* Pipelines ELT / ETL
+* Extracción incremental y full desde APIs REST
+* Data Warehouses (Star Schema)
+* Data Lakes (Bronze / Silver / Gold)
+* Delta Lake, particionado y versionado
+
+**Herramientas**
+
+* Pandas / PyArrow
+* Git & GitHub
+* Docker (nivel proyecto)
+* VS Code / Jupyter / PyCharm
 
 ---
 
-## 📈 Proyectos en progreso
+## 🏗️ Proyecto Destacado
 
-🧩 Automatización de extracción de datos desde APIs públicas  
-🗃️ Creación de un Data Lake particionado  
-📊 Análisis exploratorio automatizado con Sweetviz  
-💡 Documentación y orquestación con archivos de configuración
+### 📦 Data Warehouse E-Commerce (ELT + dbt)
 
-*Muchos de estos proyectos están disponibles o lo estarán muy pronto en mis repos públicos.*
+Proyecto end‑to‑end orientado a analítica y BI, implementando una arquitectura profesional de **Data Warehouse**.
+
+**Características clave:**
+
+* Ingesta de datos con Python hacia PostgreSQL (ODS – esquema `public`)
+* Modelado dimensional con **dbt** (Staging → Intermediate → Mart)
+* Esquema estrella con tablas `dim_*` y `fact_*`
+* SCD Tipo 2 en dimensiones críticas
+* Tests de calidad y documentación automática con dbt
+* Preparado para consumo por Power BI / Tableau / Metabase
+
+📌 Este proyecto refleja mi enfoque actual como Data Engineer: **orden, trazabilidad, escalabilidad y valor analítico**.
+
+---
+
+## 📚 Formación
+
+🎓 **Data Engineering – UTN FRBA (2024)**
+Proyecto final aprobado (90/100). Experiencia práctica con Spark, Delta Lake y pipelines reales.
+
+🎓 **Bootcamp Data Engineering – Henry (Actualidad)**
+Formación intensiva orientada a ingeniería de datos, SQL avanzado, modelado analítico, pipelines productivos y mejores prácticas de la industria.
+
+🎓 **Técnico en Programación – I.P.E.T. Nº 57 (2023)**
+Base sólida en algoritmos, estructuras de datos y desarrollo de software.
+
+---
+
+## 🧩 En qué estoy trabajando
+
+* Automatización de ingesta desde APIs públicas
+* Data Lakes particionados con control de versiones
+* Pipelines ELT reproducibles y documentados
+* Mejora continua de proyectos orientados a analítica
 
 ---
 
 ## 🎯 Objetivo Profesional
 
-Convertirme en un **Data Engineer** que comprenda tanto la lógica del software con el detalle de la arquitectura del dato. Me gustaría especializarme en la construcción de soluciones escalables y mantenibles para flujos complejos de datos.
+Consolidarme como **Data Engineer**, especializado en el diseño de arquitecturas de datos confiables, mantenibles y listas para escalar.
 
 ---
 
-## 📫 ¿Charlamos?
+## 📫 Contacto
 
-- 📍 Córdoba, Argentina
-- 📧 josedavidfrias4@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/josedavidfrias)
-
----
-
-> *“De la codificación que construye pantallas a la codificación que mueve datos a escala: mi camino apenas empieza.”*
+📍 Córdoba, Argentina
+📧 [josedavidfrias4@gmail.com](mailto:josedavidfrias4@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/josedavidfrias)
+💻 [GitHub](https://github.com/josefrias553)
