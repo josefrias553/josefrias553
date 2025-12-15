@@ -47,7 +47,6 @@ Proyecto end‑to‑end orientado a analítica y BI, implementando una arquitect
 * Esquema estrella con tablas `dim_*` y `fact_*`
 * SCD Tipo 2 en dimensiones críticas
 * Tests de calidad y documentación automática con dbt
-* Preparado para consumo por Power BI / Tableau / Metabase
 
 📌 Este proyecto refleja mi enfoque actual como Data Engineer: **orden, trazabilidad, escalabilidad y valor analítico**.
 
