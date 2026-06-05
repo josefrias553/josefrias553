@@ -1,88 +1,67 @@
 # 👋 Hola, soy José David Frías
+### **Data Engineer | Ex Full Stack Developer**
 
-## 🚀 Data Engineer en formación | Ex Full Stack Developer
+Aporto una mirada integral al ciclo de vida de los datos combinando mi experiencia previa en desarrollo Full Stack con la ingeniería de datos moderna[cite: 1]. Me especializo en el diseño e implementación de arquitecturas **Medallion** y **Data Lakehouses** robustos, escalables y orientados a aportar valor operativo al negocio[cite: 1].
 
-Soy un **Ingeniero de Datos en formación**. Mi transición desde el desarrollo Full Stack me permite abordar los datos con una mirada integral: código limpio, arquitectura clara y foco en el negocio.
-
-Actualmente diseño y construyo **pipelines ELT**, **Data Warehouses analíticos** y **Data Lakes** aplicando buenas prácticas de ingeniería, versionado y documentación.
+Tengo un enfoque riguroso en la gobernanza, la calidad de la información, el código limpio y la automatización mediante metodologías ágiles[cite: 1].
 
 ---
 
 ## 🧠 Stack Técnico
 
-**Lenguajes & Frameworks**
+**Data Engineering & Cloud**
+* **Cloud & Data Lakes:** AWS (S3, Glue, Lake Formation, Athena, EC2, IAM), Delta Lake, Databricks, Snowflake[cite: 1].
+* **Procesamiento & Orquestación:** PySpark, Apache Spark (Batch & Streaming), Apache Airflow, Airbyte[cite: 1].
+* **Modelado & Transformación:** dbt Core, Modelado Dimensional (Kimball / Star Schema), Arquitectura Medallion[cite: 1].
+* **Calidad & Observabilidad:** Great Expectations, Pytest, CloudWatch[cite: 1].
 
-* Python (avanzado)
-* SQL / PostgreSQL / MSSQL
-* PySpark / Apache Spark
-* dbt Core
-
-**Data Engineering**
-
-* Pipelines ELT / ETL
-* Extracción incremental y full desde APIs REST
-* Data Warehouses (Star Schema)
-* Data Lakes (Bronze / Silver / Gold)
-* Delta Lake, particionado y versionado
-
-**Herramientas**
-
-* Pandas / PyArrow
-* Git & GitHub
-* Docker (nivel proyecto)
-* VS Code / Jupyter / PyCharm
+**Lenguajes & DevOps**
+* **Languages:** Python (Avanzado), SQL (PostgreSQL, MySQL), JavaScript, HTML/CSS[cite: 1].
+* **DevOps & Herramientas:** Docker, Docker Compose, Terraform, Git, GitHub Actions[cite: 1].
+* **Web & Gestión:** Node.js, React, Agile (Scrum), Jira, Confluence[cite: 1].
 
 ---
 
-## 🏗️ Proyecto Destacado
+## 🏗️ Proyectos Destacados
 
-### 📦 Data Warehouse E-Commerce (ELT + dbt)
+### 🟢 [Green AI Analytics Platform](https://github.com/josefrias553)
+*Plataforma de datos end-to-end diseñada para una ONG con el objetivo de monitorear el impacto ambiental y la eficiencia de infraestructura de IA[cite: 1].*
+* Desarrollé las capas **Silver y Gold** empleando **PySpark** bajo una arquitectura Medallion para garantizar la limpieza, tipado y transformación de los datos[cite: 1].
+* Orquesté el flujo completo utilizando **Apache Airflow** y empaqueté el entorno con **Docker**[cite: 1].
+* Diseñé la documentación técnica, contratos de datos, diccionarios y co-desarrollé un panel de control interactivo (Control Tower) en **Streamlit**[cite: 1].
+* *Tech Stack:* Python, PySpark, AWS (S3, EC2), Apache Airflow, Docker, Streamlit, Git[cite: 1].
 
-Proyecto end‑to‑end orientado a analítica y BI, implementando una arquitectura profesional de **Data Warehouse**.
+### ⚡ [Data Lakehouse: Potencial Energético Renovable](https://github.com/josefrias553)
+*Pipeline de datos automatizado en la nube para evaluar el potencial de energía solar y eólica mediante métricas meteorológicas[cite: 1].*
+* Implementé un **Data Lakehouse** sobre **AWS S3 con Delta Lake**, asegurando transacciones ACID y cargas idempotentes utilizando operaciones **MERGE**[cite: 1].
+* Orquesté la ingesta desde APIs REST a través de **Airbyte** y procesé transformaciones avanzadas en **Spark** para el cálculo automatizado de índices de potencial energético[cite: 1].
+* *Tech Stack:* Delta Lake, AWS (S3, Glue), Apache Spark, Airbyte, Airflow, Docker[cite: 1].
 
-**Características clave:**
-
-* Ingesta de datos con Python hacia PostgreSQL (ODS – esquema `public`)
-* Modelado dimensional con **dbt** (Staging → Intermediate → Mart)
-* Esquema estrella con tablas `dim_*` y `fact_*`
-* SCD Tipo 2 en dimensiones críticas
-* Tests de calidad y documentación automática con dbt
-
-📌 Este proyecto refleja mi enfoque actual como Data Engineer: **orden, trazabilidad, escalabilidad y valor analítico**.
-
----
-
-## 📚 Formación
-
-🎓 **Data Engineering – UTN FRBA (2024)**
-Proyecto final aprobado (90/100). Experiencia práctica con Spark, Delta Lake y pipelines reales.
-
-🎓 **Bootcamp Data Engineering – Henry (Actualidad)**
-Formación intensiva orientada a ingeniería de datos, SQL avanzado, modelado analítico, pipelines productivos y mejores prácticas de la industria.
-
-🎓 **Técnico en Programación – I.P.E.T. Nº 57 (2023)**
-Base sólida en algoritmos, estructuras de datos y desarrollo de software.
+### 📦 [E-Commerce Data Warehouse](https://github.com/josefrias553)
+*Almacén de datos analítico y escalable optimizado para procesos de Business Intelligence corporativo[cite: 1].*
+* Diseñé un pipeline ELT estructurado para la extracción e ingesta de fuentes diversas hacia **PostgreSQL**[cite: 1].
+* Implementé un modelado dimensional (Esquema Estrella con tablas de hechos y dimensiones) mediante **dbt**, gestionando dimensiones lentamente cambiantes (**SCD Tipo 2**)[cite: 1].
+* *Tech Stack:* dbt, SQL, PostgreSQL, Python, Docker[cite: 1].
 
 ---
 
-## 🧩 En qué estoy trabajando
+## 📚 Educación & Certificaciones
 
-* Automatización de ingesta desde APIs públicas
-* Data Lakes particionados con control de versiones
-* Pipelines ELT reproducibles y documentados
-* Mejora continua de proyectos orientados a analítica
+* 🎓 **Bootcamp Data Engineering** – Henry (2025 - 2026) | *Especialización en procesamiento distribuido, orquestación y entornos Cloud (AWS)*[cite: 1].
+* 🎓 **Curso de Ingeniería de Datos** – UTN BA (2025) | *Carga horaria: 60 horas. Calificación: 9/10*[cite: 1].
+* 🎓 **Técnico en Programación** – I.P.E.T. Nº 57 (2019 - 2023) | *Fundamentos sólidos en algoritmos, estructuras de datos y lógica de programación*[cite: 1].
 
 ---
 
-## 🎯 Objetivo Profesional
+## 🌐 Idiomas
 
-Consolidarme como **Data Engineer**, especializado en el diseño de arquitecturas de datos confiables, mantenibles y listas para escalar.
+* 🇬🇧 **Inglés:** EF SET English Certificate — **73/100 (C2 Proficiente / Nativo)**[cite: 1].
 
 ---
 
 ## 📫 Contacto
 
-📍 Córdoba, Argentina
-📧 [josedavidfrias4@gmail.com](mailto:josedavidfrias4@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/josedavidfrias)
-💻 [GitHub](https://github.com/josefrias553)
+📍 Córdoba, Argentina[cite: 1]  
+📧 [josedavidfrias4@gmail.com](mailto:josedavidfrias4@gmail.com)[cite: 1]  
+🔗 [LinkedIn](https://www.linkedin.com/in/josedavidfrias)[cite: 1]  
+💻 [GitHub](https://github.com/josefrias553)[cite: 1]
