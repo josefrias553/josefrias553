@@ -24,20 +24,20 @@ Tengo un enfoque riguroso en la gobernanza, la calidad de la información, el c�
 
 ## 🏗️ Proyectos Destacados
 
-### 🟢 [Green AI Analytics Platform](https://github.com/josefrias553)
+### 🟢 [Green AI Analytics Platform](https://github.com/josefrias553/green-ai-analytics-platform)
 *Plataforma de datos end-to-end diseñada para una ONG con el objetivo de monitorear el impacto ambiental y la eficiencia de infraestructura de IA[cite: 1].*
 * Desarrollé las capas **Silver y Gold** empleando **PySpark** bajo una arquitectura Medallion para garantizar la limpieza, tipado y transformación de los datos[cite: 1].
 * Orquesté el flujo completo utilizando **Apache Airflow** y empaqueté el entorno con **Docker**[cite: 1].
 * Diseñé la documentación técnica, contratos de datos, diccionarios y co-desarrollé un panel de control interactivo (Control Tower) en **Streamlit**[cite: 1].
 * *Tech Stack:* Python, PySpark, AWS (S3, EC2), Apache Airflow, Docker, Streamlit, Git[cite: 1].
 
-### ⚡ [Data Lakehouse: Potencial Energético Renovable](https://github.com/josefrias553)
+### ⚡ [Data Lakehouse: Potencial Energético Renovable](https://github.com/josefrias553/Proyecto_Henry_4)
 *Pipeline de datos automatizado en la nube para evaluar el potencial de energía solar y eólica mediante métricas meteorológicas[cite: 1].*
 * Implementé un **Data Lakehouse** sobre **AWS S3 con Delta Lake**, asegurando transacciones ACID y cargas idempotentes utilizando operaciones **MERGE**[cite: 1].
 * Orquesté la ingesta desde APIs REST a través de **Airbyte** y procesé transformaciones avanzadas en **Spark** para el cálculo automatizado de índices de potencial energético[cite: 1].
 * *Tech Stack:* Delta Lake, AWS (S3, Glue), Apache Spark, Airbyte, Airflow, Docker[cite: 1].
 
-### 📦 [E-Commerce Data Warehouse](https://github.com/josefrias553)
+### 📦 [E-Commerce Data Warehouse](https://github.com/josefrias553/Proyecto_Henry_2)
 *Almacén de datos analítico y escalable optimizado para procesos de Business Intelligence corporativo[cite: 1].*
 * Diseñé un pipeline ELT estructurado para la extracción e ingesta de fuentes diversas hacia **PostgreSQL**[cite: 1].
 * Implementé un modelado dimensional (Esquema Estrella con tablas de hechos y dimensiones) mediante **dbt**, gestionando dimensiones lentamente cambiantes (**SCD Tipo 2**)[cite: 1].
